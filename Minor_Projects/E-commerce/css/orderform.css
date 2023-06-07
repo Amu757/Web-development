@@ -1,0 +1,53 @@
+.form {
+    margin-top: 30px;
+    background-image: url("../image/f6.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 500px;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+form {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+form>input {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+
+}
+
+form>h3 {
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+select {
+    font-size: 20px;
+    padding: 5px 0px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 5px;
+    background-color: rgb(229, 225, 225);
+}
+
+form>div {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.formbtn {
+    margin: 0px 150px;
+
+}

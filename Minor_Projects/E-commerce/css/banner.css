@@ -1,0 +1,52 @@
+.banner {
+    overflow: hidden;
+}
+
+.banner-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    background-image: url("../image/ban10.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+    /* overflow: hidden; */
+}
+
+.text-contain {
+    transform: rotate(35deg);
+    height: 800px;
+    width: 36%;
+    background-color: #ff4c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    /* background-color: aqua; */
+    height: 300px;
+    width: 70%;
+    font-size: 35px;
+    font-weight: 800;
+    transform: rotate(-35deg);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    font-size: 40px;
+}
+
+.banbtn {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 140px;
+    border: 3px solid #e1dbdbca;
+    background-color: #f41a1a54;
+    color: #e1dbdbdf;
+}
