@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    font-size: 0px;
+    padding-top: 5%;
+    padding-left: 4%;
+    height: 1100px;
+    width: 40%;
+    display: inline-block;
+}
+
+.img_container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.img {
+    margin-top: -20px;
+    width: 100%;
+}
+
+.h1 {
+    display: inline-block;
+}
+
+.text {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.cal {
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 100%;
+}
+
+.thead>td {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.tbody>td {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.holiday {
+    color: red;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: hsl(0, 3%, 51%);
+}
