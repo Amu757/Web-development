@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-image: url('./images/bg.jpeg'); */
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.taskbar {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    z-index: 110;
+    height: 40px;
+}
+
+.container {
+    height: 30px;
+    width: 190px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    /* margin: 6px 0; */
+    height: 85%;
+}
+
+#vid {
+    width: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+    left: 214px;
+    /* z-index: 5; */
+}
+
+.icons figure img {
+    margin-top: 20px;
+    width: 100px;
+    height: 62px;
+}
+
+figcaption {
+    color: white;
+    margin-left: 21px;
+}
+
+.startmenu {
+    transition: all 0.3s ease-in;
+    width: 100%;
+    position: absolute;
+    bottom: -655px;
+    display: flex;
+    justify-content: center;
+}
+
+.startmenu img {
+    border-radius: 10px;
+}
+
+.picmenu {
+    transition: all 0.3s ease-in;
+    width: 96%;
+    position: absolute;
+    bottom: -150px;
+    display: flex;
+    justify-content: center;
+}
+
+.vsmenu {
+    transition: all 0.7s ease-in;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 1000px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.vsmenu img {
+    height: 98%;
+    width: 100%;
+}
