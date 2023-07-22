@@ -1,0 +1,31 @@
+.sidebar {
+    height: 150px;
+    width: 40px;
+    position: fixed;
+    z-index: 101;
+    top: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar>div {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    background-color: #ff884c;
+    /* box-sizing: border-box; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 55%;
+    border-bottom-right-radius: 55%;
+    padding-right: 10px;
+}
+
+.sidebar>div:hover {
+    font-size: 30px;
+    padding-left: 40px;
+    transition: 0.5s;
+}

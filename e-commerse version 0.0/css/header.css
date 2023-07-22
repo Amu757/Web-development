@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.header-container {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 650px;
+    line-height: 50px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo>strong {
+    color: #61ff61;
+}
+
+.nav {
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.navlist {
+    cursor: pointer;
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#l1:hover {
+    color: white;
+    font-size: 22px;
+    margin: -7px;
+    transition: 0.4s;
+}
+
+#l2:hover {
+    color: white;
+    font-size: 22px;
+    margin: -7px;
+    transition: 0.4s;
+}
+
+#l3:hover {
+    color: white;
+    font-size: 22px;
+    margin: -11px;
+    transition: 0.4s;
+}
+
+#l4:hover {
+    color: white;
+    font-size: 22px;
+    margin: -5px;
+    transition: 0.5s;
+}
+
+.headbtn {
+    font-size: medium;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid rgb(255, 132, 0);
+    color: rgb(244, 177, 107);
+    border-radius: 5px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.headbtn:hover {
+    background-color: orange;
+    color: white;
+}

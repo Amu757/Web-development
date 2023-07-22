@@ -1,0 +1,88 @@
+.product {
+    background-color: #d2c7c7(232, 208, 208);
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    width: 80%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.product-container>h1 {
+    font-size: 30px;
+    display: block;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    /* background-color: rgb(179, 255, 0); */
+    border-radius: 5%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.text-container:hover {
+    height: 180px;
+    transition: 0.5s;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card1 {
+    background-image: url("../image/gal1.jpg");
+}
+
+.card2 {
+    background-image: url("../image/gal4.jpg");
+}
+
+.card3 {
+    background-image: url("../image/gal2.jpg");
+}
+
+.card4 {
+    background-image: url("../image/gal12.jpg");
+}
+
+.card5 {
+    background-image: url("../image/gal3.jpg");
+}
+
+.card6 {
+    background-image: url("../image/gal5.jpg");
+    background-position: bottom;
+}
+
+.card7 {
+    background-image: url("../image/gal11.jpg");
+}
+
+.card8 {
+    background-image: url("../image/gal9.jpg");
+}
